@@ -22,10 +22,16 @@ export default function MenuWeb() {
 function MenuPlatforms() {
     return (
         <Menu>
-            <Link href={'/play-station'}>
-                <a>
-                    <Menu.Item> Playstation </Menu.Item>
-                </a>
+            <Link href={'/playstation'}>
+                <Menu.Item as="a" > Playstation </Menu.Item>
+            </Link>
+
+            <Link href={'/xbox'}>
+                <Menu.Item as="a" > Xbox </Menu.Item>
+            </Link>
+
+            <Link href={'/switch'}>
+                <Menu.Item as="a" > Switch </Menu.Item>
             </Link>
         </Menu >
     )
